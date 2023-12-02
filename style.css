@@ -1,0 +1,48 @@
+body{
+    display: flex;
+     flex-direction: row !important;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: flex-start;
+    background-image: repeating-radial-gradient(circle at center center, transparent 0px, transparent 13px,rgba(255,255,255,0.05) 13px, rgba(255,255,255,0.05) 26px,transparent 26px, transparent 27px,rgba(255,255,255,0.05) 27px, rgba(255,255,255,0.05) 32px,transparent 32px, transparent 34px,rgba(255,255,255,0.05) 34px, rgba(255,255,255,0.05) 36px),repeating-radial-gradient(circle at center center, rgb(0,0,0) 0px, rgb(0,0,0) 1px,rgb(0,0,0) 1px, rgb(0,0,0) 13px,rgb(0,0,0) 13px, rgb(0,0,0) 24px,rgb(0,0,0) 24px, rgb(0,0,0) 37px,rgb(0,0,0) 37px, rgb(0,0,0) 44px,rgb(0,0,0) 44px, rgb(0,0,0) 48px); background-size: 88px 88px;
+}
+
+.heading{
+    width:900px;
+
+    background-image: linear-gradient(22.5deg, rgba(221, 221, 221, 0.04) 0%, rgba(221, 221, 221, 0.04) 56%,rgba(7, 7, 7, 0.04) 56%, rgba(7, 7, 7, 0.04) 100%),linear-gradient(112.5deg, rgba(227, 227, 227, 0.04) 0%, rgba(227, 227, 227, 0.04) 14%,rgba(56, 56, 56, 0.04) 14%, rgba(56, 56, 56, 0.04) 100%),linear-gradient(45deg, rgba(39, 39, 39, 0.04) 0%, rgba(39, 39, 39, 0.04) 34%,rgba(196, 196, 196, 0.04) 34%, rgba(196, 196, 196, 0.04) 100%),linear-gradient(0deg, rgba(20, 20, 20, 0.04) 0%, rgba(20, 20, 20, 0.04) 84%,rgba(75, 75, 75, 0.04) 84%, rgba(75, 75, 75, 0.04) 100%),linear-gradient(90deg, rgb(175, 31, 79),rgb(201, 35, 98));
+
+}
+
+.card{
+ margin-top: 30px;
+    margin-left: 500px;
+    width: 400px;
+    height: 300px;
+    padding:10px;
+    
+    border: 5px solid aqua !important;
+    background-color: black!important;
+}
+.card-body{
+    background-color: black!important;
+    color: aqua !important;
+}
+
+#description img{
+    width: 44px;
+}
+.card-header{
+    color: crimson !important;
+}
+
+#description{
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.title{
+    text-align: center;
+    
+}
